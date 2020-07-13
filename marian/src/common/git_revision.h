@@ -1,0 +1,1 @@
+#define GIT_REVISION "b13ee2c 2019-05-10 12:16:26 +0200"

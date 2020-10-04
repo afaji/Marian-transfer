@@ -37,8 +37,8 @@ Then, we use that model to initate our Indonesian-to-English MT system.
 We start by building the Indonesian-English vocabulary, since we need to match the embedding tokens while performing the transfer learning:
 
 ```
-mkdir iden-trans-enen
-cat data/iden/train.bpe.* | ../marian-dev/build/marian-vocab > iden-trans-enen/vocab.yml
+mkdir iden-trans-rand
+cat data/iden/train.bpe.* | ../marian-dev/build/marian-vocab > iden-trans-rand/vocab.yml
 python2 transfer_model.py parent/ iden-trans-rand/
 ```
 
